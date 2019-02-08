@@ -4,16 +4,11 @@
 # Renovate Shareable Config
 Renovate [shareable config](https://renovatebot.com/docs/config-presets/) for my projects.
 
-## Installation
-```
-npm install --save-dev @justinlettau/renovate-config
-```
-
 ## Usage
 In your `renovate.json` file:
 
 ```json
 {
-  "extends": "@justinlettau/renovate-config"
+  "extends": ["@justinlettau"]
 }
 ```
