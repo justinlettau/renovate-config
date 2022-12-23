@@ -3,6 +3,7 @@
     "config:base",
     ":automergeBranchPush",
     ":automergeMinor",
+    ":disableDependencyDashboard",
     ":preserveSemverRanges"
   ]
 }
